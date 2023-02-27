@@ -19,7 +19,7 @@ if(!(not >= 0 || not > 20)){
 
 if(num != 9){
     console.log('okay');
-}
+}//okay
 
 console.log(true && true); // true
 console.log(true && false); // false
