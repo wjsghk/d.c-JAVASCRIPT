@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="counter.js"></script>
+    <script type="module" src="main.js"></script>
+<!-- module는 캡슐화라고 생각하자 쓰고 분리시키는것 -->
+<style>
+    .container{
+        background:beige;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;/* 중심축 x축 정렬*/
+        align-content: center;/*y축 정렬*/
+    }
+    .item{
+        width: 40px;
+        height: 40px;
+    }
+    .item1{
+        background-color: aqua;
+        flex-grow: 2; /*늘어날떄 2배 늘어남*/
+        flex-shrink: 2;/*줄어들떄 2배 줄어듦*/
+    }
+    .item2{
+        background-color: aquamarine;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .item3{
+        background-color:black;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+  
+</style>
+</head>
+<body>
+    ol>li*3
+    <!-- ol,ul은 컨테이너라고 생각하자 -->
+
+ div.container>div.item.item${$}*10
+ <div class="container">
+    <div class="item item1">1</div>
+    <div class="item item2">2</div>
+    <div class="item item3">3</div>
+    <div class="item item4">4</div>
+    <div class="item item5">5</div>
+    <div class="item item6">6</div>
+    <div class="item item7">7</div>
+    <div class="item item8">8</div>
+    <div class="item item9">9</div>
+    <div class="item item10">10</div>
+ </div>
+</body>
+</html>
